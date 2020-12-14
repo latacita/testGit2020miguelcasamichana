@@ -11,3 +11,6 @@
  (02)   git checkout -b DatosPersonales
  (03)   Edición de PlanVacunacion.txt
  (04)   Edición de bitacora.txt
+ (05)   git add bitacora.txt
+        git add PlanVacunacion.txt
+        git commit -m "Paso 05"
