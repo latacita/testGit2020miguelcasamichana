@@ -1,8 +1,13 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Casamichana Bolado, Miguel           %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+
+ (01)   git clone  https://github.com/latacita/testGit2020miguelcasamichana.git
+ (02)   git checkout -b DatosPersonales
+ (03)   Edición de PlanVacunacion.txt
+ (04)   Edición de bitacora.txt
