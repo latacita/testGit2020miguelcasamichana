@@ -6,3 +6,10 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (06)   git checkout master
+ (07)   git checkout -b Antecedentes
+ (08)   Creación y edición de antecedentes.txt
+        Edición de bitacora.txt
+ (09)   git add  antecedentes.txt
+        git add bitacora.txt
+        git commit -m "Paso 09"
