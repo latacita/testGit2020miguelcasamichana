@@ -14,3 +14,15 @@
  (05)   git add bitacora.txt
         git add PlanVacunacion.txt
         git commit -m "Paso 05"
+ (10)   git checkout master                                                        Tras haber guardado previamente los datos de la rama Antecedentes localmente.
+ (11)   git merge DatosPersonales                                                  Debería haber subido solo la rama DatosPersonales. Sin embargo, supuse que
+        git pull                                                                   tenía que subir los cambios de la rama dentro de master por lo que hice merge
+        git add PlanVacunacion.txt                                                 de master con DatosPersonales. Debería haber pusheado solamente la rama DatosPersonales
+        git commit                                                                 haciendo git push origin DatosPersonales.
+        git push
+ (12)   -----                                                                      El merge debería ser fast-forward ya que inicialmente master está por detrás de ambas
+                                                                                   y no tiene ninguna versión diferente a cualquiera de las versiones de las otras ramas.
+                                                                                   Es decir, si por ejemplo master tuviese una versión que la rama con la que se mergea
+                                                                                   no tuviese, el merge de esta rama en master no podría ser fast-forward.
+ (13)   git add bitacora.txt
+        git commit -m "Paso 13"
