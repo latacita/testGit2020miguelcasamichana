@@ -1,5 +1,9 @@
 DNI: 72104106A
 
+<<<<<<< HEAD
 Vacuna Elegida (Pfizer/Moderna/Oxford): Oxford
+=======
+Vacuna Elegida (Pfizer/Moderna/Oxford): Para aprobar, debes borrar esto.
+>>>>>>> 5c02a0f7d32258304d6352bb6825edbf97e19c67
 
 Enviar antes del 20 de Enero 2021.
