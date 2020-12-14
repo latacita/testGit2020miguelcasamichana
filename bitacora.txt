@@ -14,6 +14,13 @@
  (05)   git add bitacora.txt
         git add PlanVacunacion.txt
         git commit -m "Paso 05"
+ (06)   git checkout master
+ (07)   git checkout -b Antecedentes
+ (08)   Creación y edición de antecedentes.txt
+        Edición de bitacora.txt
+ (09)   git add  antecedentes.txt
+               git add bitacora.txt
+               git commit -m "Paso 09"
  (10)   git checkout master                                                        Tras haber guardado previamente los datos de la rama Antecedentes localmente.
  (11)   git merge DatosPersonales                                                  Debería haber subido solo la rama DatosPersonales. Sin embargo, supuse que
         git pull                                                                   tenía que subir los cambios de la rama dentro de master por lo que hice merge
