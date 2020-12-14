@@ -33,3 +33,12 @@
                                                                                    no tuviese, el merge de esta rama en master no podría ser fast-forward.
  (13)   git add bitacora.txt
         git commit -m "Paso 13"
+ (14)   git merge --no-ff Antecedentes
+        git add antecedentes.txt
+        git add bitacora.txt                                                       Hay conflictos ya que en este archivo en ciertas líneas hay contenido diferente. Se solucionan
+                                                                                   y se anexionan ambos contenidos.
+        git commit
+ (15)   ---                                                                        Este merge le hice previamente (en el paso 11) debido a una confusión. Es por ello que el merge
+                                                                                   con la rama Antecedentes es recursivo y no fast-forward, ya que en mi caso master tiene otra versión.
+ (16)   git add bitacora.txt
+        git commit -m "Paso 16"
