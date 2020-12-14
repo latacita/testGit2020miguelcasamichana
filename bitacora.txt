@@ -42,3 +42,8 @@
                                                                                    con la rama Antecedentes es recursivo y no fast-forward, ya que en mi caso master tiene otra versión.
  (16)   git add bitacora.txt
         git commit -m "Paso 16"
+ (17)   git tag FusionTerminada
+ (18)   git push
+ (19)   git add bitacora.txt
+        git commit -m "Paso 19"
+        git push
